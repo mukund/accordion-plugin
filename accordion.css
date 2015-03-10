@@ -1,0 +1,47 @@
+body { font-family: Arial, verdana, tahoma; font-size: 13px; }
+.accordion,.accordion ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.accordion li {
+	background:#cc9900;
+	float:left;
+	width:100%;
+	margin-bottom:4px;
+}
+.accordion li a {
+	display:block;
+	font-weight:bold;
+	color:#fff;
+	padding:10px 10px 9px;
+	text-decoration: none;
+}
+
+.accordion li .content { display: none; }
+.accordion li li {
+	background:#222 ;
+	border-bottom:1px solid #cc9900;
+	margin:0;
+	float:none;
+	width:auto;
+	color: #fff;
+}
+.accordion li li a {
+	color:#cc9900;
+	font-weight:normal;
+	height: 15px;
+	line-height: 15px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.accordion li li.active,
+.accordion li li:hover {
+	background:#e6ac00;
+}
+.accordion li li.active a,
+.accordion li li:hover a {
+	font-weight:800;
+	color:#fff;
+}
